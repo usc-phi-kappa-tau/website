@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import Footer from './components/Footer';
-import Hero from './components/Hero';
+import Head from './components/Head';
 import Section from './components/Section';
 import Verticals from './components/Verticals';
 import FAQ from './components/FAQ';
@@ -15,13 +15,13 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Hero />
+        <Head />
 
         <Scroll.Element name="main">
           <main>
             <section className="section">
               <div className="container">
-                <h2 className="title details">Details</h2>
+                <h2 className="title details">About Us</h2>
 
                 <div className="columns">
                   <div className="column is-three-fifths">
@@ -53,9 +53,9 @@ class App extends Component {
                       <b>Location</b>
                       <br />
                       <em>
-                        California Market Center
+                        PKT House
                         <br />
-                        110 E 9th Street
+                        2715 Portland St
                         <br />
                         Los Angeles, CA 90079
                       </em>
@@ -64,26 +64,19 @@ class App extends Component {
                     <br />
 
                     <p>
-                      <b>Start</b>
+                      <b>Fall Semester</b>
                       <br />
-                      <em>Friday, April 12th, 6PM</em>
+                      <em>August - December</em>
                     </p>
 
                     <br />
 
                     <p>
-                      <b>End</b>
+                      <b>Spring Semester</b>
                       <br />
-                      <em>Sunday, April 14th, 3PM</em>
+                      <em>January - May</em>
                     </p>
-
                     <br />
-
-                    <p>
-                      <b>Cost</b>
-                      <br />
-                      <em>Not a thing</em>
-                    </p>
                   </div>
                 </div>
               </div>

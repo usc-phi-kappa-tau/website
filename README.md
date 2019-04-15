@@ -5,9 +5,22 @@
 USC PKT: uscpkt.com
 PKT: phikappatau.org
 
+## Theme
+
+### Font
+
+Palatino Linotype
+
+### Color
+
+Black - #000000
+White - #ffffff
+Red - #EB5757
+
 ## Tech Stack
 
-Create React App
+React App
+GIT VC
 
 ## Hosts
 
