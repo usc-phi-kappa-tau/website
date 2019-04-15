@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bb7acf92-9250-4b70-ac3e-f6765f9dcf23/deploy-status)](https://app.netlify.com/sites/uscpkt/deploys)
+
 # USC PKT Website 2019
 
 ## General
@@ -13,9 +15,13 @@ Palatino Linotype
 
 ### Color
 
-Black - #000000
-White - #ffffff
-Red - #EB5757
+Primary 
+- #EB5757
+Secondary 
+- #FF982A
+Shades
+- #000000
+- #ffffff
 
 ## Tech Stack
 
