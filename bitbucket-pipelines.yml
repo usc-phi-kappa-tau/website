@@ -1,0 +1,25 @@
+image: atlassian/default-image:2
+
+pipelines:
+  default:
+    - parallel:
+      - step:
+          caches:
+            - node
+          name: Build Server
+          script:
+            - echo "[Default | Server]"
+            - echo "- Installing dependencies..."
+            - npm install
+            - echo "- Running tests..."
+            - npm run build
+    - step:
+        name: Deploy to test
+        deployment: test   # can be test, staging or production.
+        script:
+          - echo "Deploying to test environment"
+    - step:
+          name: Manual step
+          trigger: manual
+          script:
+            - echo "This step runs once you click the 'Run' button"
