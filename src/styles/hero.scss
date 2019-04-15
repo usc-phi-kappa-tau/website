@@ -1,0 +1,226 @@
+@import "~bulma/sass/utilities/mixins";
+@import "./variables";
+
+// Click to scroll bounce animation
+@-webkit-keyframes bounce {
+  0%   {bottom: 16px;}
+  40%  {bottom: 24px;}
+  80%  {bottom: 16px;}
+}
+
+@keyframes bounce {
+  0%   {bottom: 16px;}
+  40%  {bottom: 24px;}
+  80%  {bottom: 16px;}
+}
+
+// Fade in LA skyline animation
+@-webkit-keyframes fadeIn {
+  0%   {opacity: 0;}
+  100%  {bottom: 1;}
+}
+
+@keyframes fadeIn {
+  0%   {opacity: 0;}
+  100%  {bottom: 1;}
+}
+
+.hero.is-primary {
+  background: #FFFFFF;
+  color: #1A1A1A;
+  position: relative;
+
+  .hero-body {
+    z-index: 10;
+
+    .logo {
+      width: 90%;
+      margin: 0 auto;
+
+      @include until($tablet) {
+        width: 30%;
+      }
+
+      @include mobile {
+        width: 50%;
+        max-width: 300px;
+      }
+    }
+
+    .hacksc {
+      width: 80%;
+      max-width: 360px;
+    }
+
+    .graphic-col {
+      text-align: center;
+
+      .city-graphic {
+        height: 75vh;
+      }
+
+      @include mobile {
+        display: none;
+      }
+    }
+
+    hr {
+      color: $secondary;
+      width: 60px;
+      height: 3px;
+      background-color: $secondary;
+
+      @include mobile {
+        margin: 2rem auto;
+      }
+    }
+
+    .title {
+      font-size: 4rem;
+      font-weight: 700;
+      color: $dark;
+      font-family: $heading-font-family;
+      margin: 0;
+
+      @include until($desktop) {
+        font-size: 3.5rem;
+      }
+
+      @include until($tablet) {
+        font-size: 3rem;
+        text-align: center;
+      }
+
+      @include mobile {
+        font-size: 2.5rem;
+      }
+    }
+
+    .due-dates {
+      margin-top: 1rem;
+    }
+
+    h2.title {
+      font-size: 1.75rem;
+      color: $dark;
+
+      @include until($desktop) {
+        font-size: 1.7rem;
+      }
+
+      @include until($tablet) {
+        font-size: 1.5rem;
+        text-align: center;
+      }
+
+      @include mobile {
+        font-size: 1.3rem;
+      }
+
+      &.city {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+    }
+
+    .subtitle {
+      margin-top: 0.5rem;
+      font-size: 1.5rem;
+      color: $dark;
+
+      @include until($tablet) {
+        font-size: 1.25rem;
+        text-align: center;
+      }
+
+      @include mobile {
+        font-size: 1rem;
+      }
+    }
+
+    .apply-button {
+      width: 50%;
+
+      @include until($tablet) {
+        font-size: 1.1rem;
+      }
+    }
+
+    .portal-button {
+      margin-top: 0.5rem;
+      background-color: $secondary;
+      border: none;
+      color: $white;
+
+      &:hover {
+        background-color: darken($secondary, 5%);
+      }
+    }
+
+    .details-column {
+      text-align: left;
+
+      @include until($tablet) {
+        text-align: center;
+      }
+    }
+
+    .vol-men-forms {
+      display: flex;
+      justify-content: space-between;
+      width: 50%;
+      padding-top: 0.5rem;
+
+      @include until($tablet) {
+        margin: 0 auto;
+        flex-wrap: wrap;
+      }
+
+      .button {
+        flex-basis: 48%;
+        background-color: #E6194B;
+        color: #FFFFFF;
+        border: none;
+
+        &:hover {
+          background-color: darken(#E6194B, 5%);
+        }
+
+        @include until($tablet) {
+          flex-basis: 100%;
+
+          &:first-child {
+            margin-bottom: 0.5rem;
+          }
+        }
+      }
+    }
+
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
+  }
+
+  .click-down {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    bottom: 16px;
+    left: 50vw;
+    margin-left: -24px;
+    z-index: 20;
+    animation-name: bounce;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    @include until($tablet) {
+      bottom: 8px;
+      width: 32px;
+      height: 32px;
+      margin-left: -16px;
+    }
+  }
+}

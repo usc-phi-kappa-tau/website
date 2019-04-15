@@ -1,0 +1,94 @@
+@import "~bulma/sass/utilities/mixins";
+@import './variables';
+
+.section {
+  .title {
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 900;
+    font-family: $heading-font-family;
+    position: relative;
+    margin-bottom: 3rem;
+    color: $primary;
+
+    @include until($desktop) {
+      font-size: 3rem;
+    }
+
+    @include until($tablet) {
+      font-size: 2.5rem;
+    }
+
+    @include mobile {
+      font-size: 2rem;
+    }
+  }
+
+  &:nth-child(even) {
+    .title {
+      text-align: right;
+    }
+  }
+
+  h3 {
+    color: $secondary;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 1.25rem;
+    font-weight: 200;
+    line-height: 2rem;
+  }
+
+  .coming-soon {
+    font-size: 3.5rem;
+    font-weight: 100;
+    line-height: 4rem;
+    font-style: italic;
+    color: #CCCCCC;
+  }
+
+  &.faq {
+    h3 {
+      font-size: 1.25rem;
+      line-height: 2rem;
+      font-weight: 600;
+      color: $secondary;
+    }
+
+    .question {
+      margin-bottom: 2rem;
+    }
+  }
+
+  .meet-team-button {
+    margin-top: 1rem;
+    background: $secondary;
+    border: none;
+    color: #ffffff;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+    a {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      transition: 0.25s all;
+
+      &:hover {
+        opacity: 0.5;
+      }
+
+      img {
+        width: 42px;
+      }
+    }
+  }
+}
