@@ -14,7 +14,8 @@ const About = () => {
                         Located in the heart of sunny Los Angeles, Phi Kappa Tau Pi
                         Chapter began recruiting in 2018 and is working on establishing
                         itself as a premier Fraternity at the University of Southern
-                        California.
+                        California. Phi Kappa Tau develops men of character into men of
+                        distinction.
                     </p>
                 </div>
 
