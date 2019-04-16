@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Individual from './Individual';
 
 class Members extends Component {
     state = {
@@ -16,7 +17,16 @@ class Members extends Component {
         ]
     }
     render() {
-        return (  );
+        const members = this.state.members;
+        return ( 
+            <div>
+                {
+                    members.map(person => {
+                        return <Individual data={person} />;
+                    })
+                }
+            </div>
+        );
     }
 }
 
