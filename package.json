@@ -1,11 +1,12 @@
 {
   "name": "uscpkt",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "author": "Andreas Bigger",
   "homepage": "http://uscpkt.netlify.com",
   "contributors": [
-    "Ralph Sun"
+    "Ralph Sun",
+    "Anthony Wiencko"
   ],
   "dependencies": {
     "react": "^16.5.2",

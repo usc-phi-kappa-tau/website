@@ -4,6 +4,8 @@ import Head from './components/Head';
 import About from './components/About';
 import Fraternity from './components/Fraternity';
 import Creed from './components/Creed';
+import Members from './components/Members';
+import Events from './components/Events';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 // Sections for styling
@@ -29,6 +31,14 @@ class App extends Component {
 
             <Section title="Creed" sectionClass="creed">
               <Creed />
+            </Section>
+
+            <Section title="Members" sectionClass="members">
+              <Members />
+            </Section>
+
+            <Section title="Events" sectionClass="events">
+              <Events />
             </Section>
 
             <Section title="Contact" sectionClass="contact">
