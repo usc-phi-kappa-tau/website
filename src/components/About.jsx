@@ -8,19 +8,13 @@ const About = () => {
             <div className="columns">
                 <div className="column is-three-fifths">
                     <p>
-                        HackSC is a better hackathon than the one you’re thinking
-                        of right now, let’s tell you why. Located in the heart of
-                        sunny Los Angeles, HackSC will provide a weekend full of
-                        innovation, connection, and education. In an
-                        interdisciplinary endeavor, join together with 800+
-                        hackers, designers, and visionaries to engage in
-                        workshops, listen to speakers, and develop programs,
-                        tools, and relationships that can last for life. Coming
-                        from USC, HackSC seeks to breathe some of Southern
-                        California’s life and culture into the field and world of
-                        tech. We hope to have you join us! For more information
-                        and updates, check out our social media at the bottom of the
-                        page!
+                        Founded in 1906 at Miami University in Oxford, Ohio, Phi
+                        Kappa Tau is a national fraternity that fosters three core
+                        ideals within its membership: Learning, Leading, and Serving.
+                        Located in the heart of sunny Los Angeles, Phi Kappa Tau Pi
+                        Chapter began recruiting in 2018 and is working on establishing
+                        itself as a premier Fraternity at the University of Southern
+                        California.
                     </p>
                 </div>
 
