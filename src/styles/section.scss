@@ -51,6 +51,16 @@
     color: #CCCCCC;
   }
 
+  .Inclusive {
+    overflow: auto;
+  }
+
+  .justify-right {
+    max-width: 50%;
+    float: right;
+    text-align: right;
+  }
+
   &.faq {
     h3 {
       font-size: 1.25rem;
