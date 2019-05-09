@@ -16,10 +16,10 @@ Palatino Linotype
 ### Color
 
 Primary 
-- #EB5757
+- #A6192E
 
 Secondary 
-- #FF982A
+- #F2A900
 
 Shades
 - #000000
