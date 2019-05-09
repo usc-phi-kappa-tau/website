@@ -35,17 +35,17 @@ const About = () => {
                     <br />
 
                     <p>
-                        <b>Fall Semester</b>
+                        <b>Fall 2019 Rush</b>
                         <br />
-                        <em>August - December</em>
+                        <em>August 22-30, 2019</em>
                     </p>
 
                     <br />
 
                     <p>
-                        <b>Spring Semester</b>
+                        <b>Spring 2020 Rush</b>
                         <br />
-                        <em>January - May</em>
+                        <em>TBD</em>
                     </p>
                     <br />
                 </div>
