@@ -35,7 +35,7 @@ const About = () => {
                     <br />
 
                     <p>
-                        <b>Fall 2019 Rush</b>
+                        <b>Fall Rush</b>
                         <br />
                         <em>August 22-30, 2019</em>
                     </p>
