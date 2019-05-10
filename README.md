@@ -4,7 +4,7 @@
 
 ## General
 
-USC PKT: uscpkt.com
+USC PKT: uscphitau.org
 PKT: phikappatau.org
 
 ## Theme
