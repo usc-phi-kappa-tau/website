@@ -43,7 +43,7 @@ const About = () => {
                     <br />
 
                     <p>
-                        <b>Spring 2020 Rush</b>
+                        <b>Spring Rush</b>
                         <br />
                         <em>TBD</em>
                     </p>
