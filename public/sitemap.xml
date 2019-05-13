@@ -9,7 +9,8 @@
 
 <url>
   <loc>https://uscphitau.org/</loc>
-  <lastmod>2019-05-13T20:05:22+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1.0</priority>
 </url>
 
 
