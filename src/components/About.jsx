@@ -24,11 +24,11 @@ const About = () => {
                         <b>Location</b>
                         <br />
                         <em>
-                            PKT House
+                            USC PKT House
                         <br />
                             2715 Portland St
                         <br />
-                            Los Angeles, CA 90079
+                            Los Angeles, CA 90007
                         </em>
                     </p>
 
