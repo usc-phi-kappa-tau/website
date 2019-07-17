@@ -8,14 +8,14 @@ const About = () => {
             <div className="columns">
                 <div className="column is-three-fifths">
                     <p>
-                        Founded in 1906 at Miami University in Oxford, Ohio, Phi
-                        Kappa Tau is a national fraternity that fosters three core
-                        ideals within its membership: Learning, Leading, and Serving.
-                        Located in the heart of sunny Los Angeles, Phi Kappa Tau Pi
-                        Chapter began recruiting in 2018 and is working on establishing
-                        itself as a premier Fraternity at the University of Southern
-                        California. Phi Kappa Tau develops men of character into men of
-                        distinction.
+                        Founded in 1906 at Miami University in Oxford, Ohio, Phi Kappa Tau 
+                        is a national fraternity that fosters three core ideals within its membership: 
+                        Learning, Leading, and Serving. Located in the heart of sunny Los Angeles, 
+                        the Pi Chapter of Phi Kappa Tau was originally founded in 1922, making it 
+                        the fourth-oldest fraternity at USC.  The Pi Chapter recolonized in 2018 
+                        and is working on establishing itself as a premier Fraternity at the 
+                        University of Southern California. Phi Kappa Tau develops men of character 
+                        into men of distinction.
                     </p>
                 </div>
 
