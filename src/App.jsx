@@ -33,6 +33,10 @@ class App extends Component {
               <Creed />
             </Section>
 
+            <Section title="Philanthropy" sectionClass="philanthropy">
+              <Philanthropy />
+            </Section>
+
             <Section title="Members" sectionClass="members">
               <Members />
             </Section>
