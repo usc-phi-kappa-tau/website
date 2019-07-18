@@ -17,7 +17,7 @@ export default (props) => (
       
     </div>
     <div className="Inclusive">
-      <p>Please visit the <a href="www.phikappatau.org">Phi Kappa Tau National Fraternity</a> website to learn more.</p>
+      <p>Please visit the <a href="https://www.phikappatau.org">Phi Kappa Tau National Fraternity</a> website to learn more.</p>
     </div>
   </div>
 )
