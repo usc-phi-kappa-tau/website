@@ -4,6 +4,7 @@ import Head from './components/Head';
 import About from './components/About';
 import Fraternity from './components/Fraternity';
 import Creed from './components/Creed';
+import Philanthropy from './components/Philanthropy'
 import Members from './components/Members';
 import Events from './components/Events';
 import Contact from './components/Contact';
