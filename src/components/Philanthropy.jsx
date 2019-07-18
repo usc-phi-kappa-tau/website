@@ -12,6 +12,7 @@ const Philanthropy = () => {
                     all free of charge.  Through this partnership, Phi Tau has helped raise over 
                     1.6 million dollars for this great cause. 
                 </p>
+                <br />
                 <p>
                     USC Phi Kappa Tau also is proud to give back to the local community.  
                     We have helped to raise money and volunteer for many local organizations, 
