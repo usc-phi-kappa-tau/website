@@ -14,6 +14,10 @@ export default (props) => (
 
         <p>The mission of Phi Kappa Tau is to champion a lifelong commitment to brotherhood, learning, ethical leadership and exemplary character.</p>
       </div>
+      
+      <div>
+        <p>Please visit the <a href="www.phikappatau.org">Phi Kappa Tau National Fraternity</a> webite to learn more.</p>
+      </div>
     </div>
   </div>
 )
