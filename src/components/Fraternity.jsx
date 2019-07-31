@@ -17,7 +17,10 @@ export default (props) => (
       
     </div>
     <div className="Inclusive">
-      <p>Please visit the <a href="https://www.phikappatau.org">Phi Kappa Tau National Fraternity</a> website to learn more.</p>
+      <p>
+        Please visit the <a href="https://www.phikappatau.org">Phi Kappa Tau National Fraternity</a> website to learn more about Phi Kappa Tau.
+        For more information about Greek life at USC, and to sign up for rush, please visit the USC IFC website to learn more about <a href="https://www.uscifc.com/">USC Fraternities</a>.
+      </p>
     </div>
   </div>
 )
