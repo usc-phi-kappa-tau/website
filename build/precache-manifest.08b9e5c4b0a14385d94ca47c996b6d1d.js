@@ -1,19 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "af8107aab86e4f85de73",
+    "revision": "607db38f0e35702bf2ea",
     "url": "/static/css/main.0cff6d11.chunk.css"
   },
   {
-    "revision": "af8107aab86e4f85de73",
-    "url": "/static/js/main.9a8b7c80.chunk.js"
+    "revision": "607db38f0e35702bf2ea",
+    "url": "/static/js/main.99ccf4be.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "429b2505be8ccb4c8bdb",
-    "url": "/static/js/2.df3bec29.chunk.js"
+    "revision": "cf7e5faa615d7c24cd16",
+    "url": "/static/css/2.3450179f.chunk.css"
+  },
+  {
+    "revision": "cf7e5faa615d7c24cd16",
+    "url": "/static/js/2.0eb0fb8d.chunk.js"
   },
   {
     "revision": "9e3863271c9c942197b859ec8edfa05e",
@@ -32,7 +36,7 @@ self.__precacheManifest = [
     "url": "/static/media/instagram.8bc876e4.png"
   },
   {
-    "revision": "9781d6b02bfeb0e993ed121b01d7f056",
+    "revision": "1ef9f8beedc397bdcf3c6f23df35f1e2",
     "url": "/index.html"
   }
 ];

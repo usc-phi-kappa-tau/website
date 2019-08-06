@@ -1,10 +1,9 @@
 import React from 'react';
 
-const Individual = (data) => {
+const Individual = ({ data }) => {
+    const { name, title, image, email } = data;
     return (
-        <div>
-            {/* Individual Cards */}
-        </div>
+        <h3>{name}{title ? ` - ${title}` : ""}</h3>
     );
 }
 

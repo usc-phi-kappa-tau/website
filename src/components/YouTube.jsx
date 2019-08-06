@@ -1,7 +1,6 @@
 import React from 'react';
 
 const YouTube = ({ youtubeId }) => {
-    console.log(youtubeId);
     return (
         <div
             className="video"

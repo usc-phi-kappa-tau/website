@@ -3,7 +3,11 @@ import React, { Component } from 'react';
 class Events extends Component {
     state = {}
     render() {
-        return (<div>{/* Upcoming Events */}</div>);
+        return (
+            <div>
+                {/* Upcoming Events */}
+            </div>
+        );
     }
 }
 
