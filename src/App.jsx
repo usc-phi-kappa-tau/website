@@ -38,7 +38,7 @@ class App extends Component {
               <Philanthropy />
             </Section>
 
-            <Section title="ExecutiveBoard" sectionClass="executiveboard">
+            <Section title="Executive Board" sectionClass="executiveboard">
               <ExecutiveBoard />
             </Section>
 
