@@ -52,6 +52,14 @@ const Events = () => {
             calendarStartTime: '2019-08-28T18:00:00-07:00',
             calendarEndTime: '2019-08-28T21:00:00-07:00'
         },
+        {
+            title: "PKT Blue Chip Dinner",
+            date: "7:30PM August 29, 2019",
+            description: "Invite Only Blue Chip Dinner",
+            location: "TBA",
+            calendarStartTime: '2019-08-28T19:30:00-07:00',
+            calendarEndTime: '2019-08-28T21:30:00-07:00'
+        }
     ];
     return (
         <Row style={{ overflowX: "scroll" }} className="flex-row d-flex flex-nowrap flex-grow-1">

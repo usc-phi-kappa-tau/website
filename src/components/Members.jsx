@@ -4,83 +4,11 @@ import { Container, Row, Col } from 'reactstrap';
 
 class Members extends Component {
     state = {
-        members: [
+        eboard: [
             {
                 name: "Seth Novosel",
                 title: "President",
                 email: "sethn@comcast.net",
-                image: ""
-            },
-            {
-                name: "Shreyansh Jhalani",
-                title: "Public Relations",
-                email: "sjhalani@usc.edu",
-                image: ""
-            },
-            {
-                name: "Eduardo Baresi",
-                title: "",
-                email: "baresi@usc.edu",
-                image: ""
-            },
-            {
-                name: "Corey Burrill",
-                title: "Community Service",
-                email: "cburrill@usc.edu",
-                image: ""
-            },
-            {
-                name: "Ishan Shah",
-                title: "",
-                email: "ishans@usc.edu",
-                image: ""
-            },
-            {
-                name: "Patrick Dempsey",
-                title: "Fundraising",
-                email: "patrick.dempsey32@gmail.com",
-                image: ""
-            },
-            {
-                name: "Adam Stroberg",
-                title: "",
-                email: "stroberg@usc.edu",
-                image: ""
-            },
-            {
-                name: "Nima Tahamzadeh",
-                title: "Recruitment",
-                email: "tahamzad@usc.edu",
-                image: ""
-            },
-            {
-                name: "Andrew Piazza",
-                title: "M.O.O.",
-                email: "ampiazza@usc.edu",
-                image: ""
-            },
-            {
-                name: "Evan Vivanco",
-                title: "Secretary",
-                email: "evivanco@usc.edu",
-                image: ""
-            },
-            {
-                name: "Marc Abdou",
-                title: "Social Chair",
-                email: "abdoumarc1@gmail.com",
-                image: ""
-            },
-            {
-                name: "Matthew Phun",
-                title: "Prevention & Wellness",
-                email: "phun@usc.edu",
-                image: ""
-            },
-            {
-                name: "Kelvin Choi",
-                title: "",
-                email: "kyunginc@usc.edu",
                 image: ""
             },
             {
@@ -91,51 +19,93 @@ class Members extends Component {
             },
             {
                 name: "Beau Classen",
-                title: "VPAR",
+                title: "Vice President of Alumni Relations",
                 email: "",
                 image: ""
             },
             {
-                name: "Omid Holakoui",
-                title: "Scholarship",
-                email: "holakoui@usc.edu",
+                name: "Andrew Piazza",
+                title: "Treasurer",
+                email: "ampiazza@usc.edu",
+                image: ""
+            },
+            {
+                name: "Evan Vivanco",
+                title: "Secretary",
+                email: "evivanco@usc.edu",
                 image: ""
             },
             {
                 name: "Mcguire Shamieh",
-                title: "",
+                title: "Membership Orientation Officer",
                 email: "mshamieh@usc.edu",
                 image: ""
             },
             {
-                name: "Jason Picker",
-                title: "",
-                email: "picker@usc.edu",
+                name: "Marc Abdou",
+                title: "Social Chair",
+                email: "abdoumarc1@gmail.com",
                 image: ""
             },
             {
                 name: "Conner McCloskey",
-                title: "",
+                title: "Assistant Social Chairman",
                 email: "camcclos@usc.edu",
                 image: ""
             },
             {
+                name: "Matt Phun",
+                title: "Risk Chairman",
+                email: "phun@usc.edu",
+                image: ""
+            },
+            {
+                name: "Royce Montgomery",
+                title: "Assistant Risk Chairman",
+                email: "",
+                image: ""
+            },
+            {
+                name: "Nima Tahamzadeh",
+                title: "Recruitment Chairman",
+                email: "tahamzad@usc.edu",
+                image: ""
+            },
+            {
                 name: "Ralph Sun",
-                title: "",
+                title: "Community Service Chairman",
                 email: "ralphsun@usc.edu",
                 image: ""
             },
             {
+                name: "Jason Picker",
+                title: "Philanthropy Chairman",
+                email: "picker@usc.edu",
+                image: ""
+            },
+            {
+                name: "Shrey Jhalani",
+                title: "Public Relations Chairman",
+                email: "sjhalani@usc.edu",
+                image: ""
+            },
+            {
                 name: "Andreas Bigger",
-                title: "",
+                title: "Technology Chairman",
                 email: "bigger@usc.edu",
+                image: ""
+            },
+            {
+                name: "Omid Holakoui",
+                title: "Scholarship Chairman",
+                email: "",
                 image: ""
             }
         ]
     }
     render() {
-        const members = this.state.members;
-        const half_length = Math.ceil(members.length / 2);
+        const members = this.state.eboard;
+        const half_length = members.length / 2 + 1;
         const members1 = members.splice(0, half_length);
         const members2 = members;
         return (
