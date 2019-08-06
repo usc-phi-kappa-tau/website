@@ -5,7 +5,7 @@ import About from './components/About';
 import Fraternity from './components/Fraternity';
 import Creed from './components/Creed';
 import Philanthropy from './components/Philanthropy'
-import Members from './components/Members';
+import ExecutiveBoard from './components/ExecutiveBoard';
 import Events from './components/Events';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -38,8 +38,8 @@ class App extends Component {
               <Philanthropy />
             </Section>
 
-            <Section title="Members" sectionClass="members">
-              <Members />
+            <Section title="ExecutiveBoard" sectionClass="executiveboard">
+              <ExecutiveBoard />
             </Section>
 
             <Section title="Events" sectionClass="events">

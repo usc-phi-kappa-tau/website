@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Individual from './Individual';
 import { Container, Row, Col } from 'reactstrap';
 
-class Members extends Component {
+class ExecutiveBoard extends Component {
     state = {
         eboard: [
             {
@@ -131,4 +131,4 @@ class Members extends Component {
     }
 }
 
-export default Members;
+export default ExecutiveBoard;
