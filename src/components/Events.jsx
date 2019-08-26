@@ -39,7 +39,7 @@ const Events = () => {
         {
             title: "PKT Off-campus Day 1",
             date: "6:30PM August 27, 2019",
-            description: "TBA",
+            description: "Bowling @ XLanes LA",
             location: "TBA",
             calendarStartTime: '2019-08-27T18:30:00-07:00',
             calendarEndTime: '2019-08-27T21:30:00-07:00'
@@ -47,16 +47,24 @@ const Events = () => {
         {
             title: "PKT Off-campus Day 2",
             date: "6:00PM August 28, 2019",
-            description: "TBA",
-            location: "TBA",
+            description: "Casino Night",
+            location: "2715 Portland Street",
             calendarStartTime: '2019-08-28T18:00:00-07:00',
             calendarEndTime: '2019-08-28T21:00:00-07:00'
         },
         {
             title: "PKT Blue Chip Dinner",
             date: "7:30PM August 29, 2019",
-            description: "Invite Only Blue Chip Dinner",
-            location: "TBA",
+            description: "Blue Chip @ El Cholo",
+            location: "333 Alameda Street",
+            calendarStartTime: '2019-08-28T19:30:00-07:00',
+            calendarEndTime: '2019-08-28T21:30:00-07:00'
+        },
+        {
+            title: "PKT Bid Night",
+            date: "6:00PM August 30, 2019",
+            description: "Invite-Only Bid Night",
+            location: "Tommy Trojan",
             calendarStartTime: '2019-08-28T19:30:00-07:00',
             calendarEndTime: '2019-08-28T21:30:00-07:00'
         }
