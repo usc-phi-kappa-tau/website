@@ -40,7 +40,7 @@ const Events = () => {
             title: "PKT Off-campus Day 1",
             date: "6:30PM August 27, 2019",
             description: "Bowling @ XLanes LA",
-            location: "TBA",
+            location: "333 Alameda Street",
             calendarStartTime: '2019-08-27T18:30:00-07:00',
             calendarEndTime: '2019-08-27T21:30:00-07:00'
         },
@@ -56,7 +56,7 @@ const Events = () => {
             title: "PKT Blue Chip Dinner",
             date: "7:30PM August 29, 2019",
             description: "Blue Chip @ El Cholo",
-            location: "333 Alameda Street",
+            location: "1037 South Flower Street",
             calendarStartTime: '2019-08-28T19:30:00-07:00',
             calendarEndTime: '2019-08-28T21:30:00-07:00'
         },
