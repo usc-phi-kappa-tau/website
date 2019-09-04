@@ -5,34 +5,18 @@ import EventCard from './EventCard';
 const Events = () => {
     const events = [
         {
-            title: "PKT Blue Chip Dinner",
-            date: "7:30PM August 29, 2019",
-            description: "Blue Chip @ PKT House",
-            location: "2715 Portland Street",
-            calendarStartTime: '2019-08-28T19:30:00-07:00',
-            calendarEndTime: '2019-08-28T21:30:00-07:00'
-        },
-        {
-            title: "PKT Bid Night",
-            date: "6:00PM August 30, 2019",
-            description: "Invite-Only Bid Night",
-            location: "Tommy Trojan",
-            calendarStartTime: '2019-08-28T19:30:00-07:00',
-            calendarEndTime: '2019-08-28T21:30:00-07:00'
-        },
-        {
-            title: "USC vs. Fresno State",
-            date: "7:30PM August 31, 2019",
-            description: "Gameday and Tailgate",
-            location: "LA Memorial Coliseum",
-            calendarStartTime: '2019-08-28T19:30:00-07:00',
-            calendarEndTime: '2019-08-28T21:30:00-07:00'
-        },
-        {
             title: "Meeting",
-            date: "6:30PM September 1, 2019",
+            date: "8:00-9:00PM September 4, 2019",
             description: "Phi Tau Chapter Meeting",
             location: "2715 Portland Street",
+            calendarStartTime: '2019-08-28T19:30:00-07:00',
+            calendarEndTime: '2019-08-28T21:30:00-07:00'
+        },
+        {
+            title: "Gameday Tailgate",
+            date: "TBD September 7, 2019",
+            description: "Tailgate w/ Phi Sig",
+            location: "938 West 28th Street",
             calendarStartTime: '2019-08-28T19:30:00-07:00',
             calendarEndTime: '2019-08-28T21:30:00-07:00'
         },
