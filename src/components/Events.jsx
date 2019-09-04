@@ -7,7 +7,7 @@ const Events = () => {
         {
             title: "Meeting",
             date: "8:00-9:00PM September 4, 2019",
-            description: "Phi Tau Chapter Meeting",
+            description: "PKT Chapter Meeting",
             location: "2715 Portland Street",
             calendarStartTime: '2019-08-28T19:30:00-07:00',
             calendarEndTime: '2019-08-28T21:30:00-07:00'
@@ -23,8 +23,16 @@ const Events = () => {
         {
             title: "USC vs. Stanford",
             date: "7:30PM September 7, 2019",
-            description: "Gameday and Tailgate",
+            description: "Gameday",
             location: "LA Memorial Coliseum",
+            calendarStartTime: '2019-08-28T19:30:00-07:00',
+            calendarEndTime: '2019-08-28T21:30:00-07:00'
+        },
+        {
+            title: "USC @ BYU",
+            date: "12:30-4:00PM September 14, 2019",
+            description: "Gameday Watch Party",
+            location: "2715 Portland Street",
             calendarStartTime: '2019-08-28T19:30:00-07:00',
             calendarEndTime: '2019-08-28T21:30:00-07:00'
         }
