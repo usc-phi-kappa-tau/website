@@ -5,26 +5,26 @@ import EventCard from './EventCard';
 const Events = () => {
     const events = [
         {
-            title: "Meeting",
-            date: "8:00-9:00PM September 4, 2019",
-            description: "PKT Chapter Meeting",
+            title: "Deliveries",
+            date: "5:00-6:00PM September 9, 2019",
+            description: "Sorority Deliveries",
+            location: "The Row",
+            calendarStartTime: '2019-08-28T19:30:00-07:00',
+            calendarEndTime: '2019-08-28T21:30:00-07:00'
+        },
+        {
+            title: "Eboard Meeting",
+            date: "6:00-6:30PM September 9, 2019",
+            description: "PKT Eboard Meeting",
             location: "2715 Portland Street",
             calendarStartTime: '2019-08-28T19:30:00-07:00',
             calendarEndTime: '2019-08-28T21:30:00-07:00'
         },
         {
-            title: "Gameday Tailgate",
-            date: "TBD September 7, 2019",
-            description: "Tailgate w/ Phi Sig",
-            location: "938 West 28th Street",
-            calendarStartTime: '2019-08-28T19:30:00-07:00',
-            calendarEndTime: '2019-08-28T21:30:00-07:00'
-        },
-        {
-            title: "USC vs. Stanford",
-            date: "7:30PM September 7, 2019",
-            description: "Gameday",
-            location: "LA Memorial Coliseum",
+            title: "Meeting",
+            date: "6:30-7:30PM September 9, 2019",
+            description: "PKT Chapter Meeting",
+            location: "2715 Portland Street",
             calendarStartTime: '2019-08-28T19:30:00-07:00',
             calendarEndTime: '2019-08-28T21:30:00-07:00'
         },
