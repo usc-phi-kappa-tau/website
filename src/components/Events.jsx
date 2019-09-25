@@ -7,58 +7,42 @@ const Events = () => {
         {
             title: "Mixer",
             date: "TBD",
-            description: "Mixer w/ Theta",
+            description: "Mixer w/ Alpha Phi",
             location: "TBD",
-            calendarStartTime: '2019-09-18T20:30:00-07:00',
-            calendarEndTime: '2019-09-18T21:30:00-07:00'
+            calendarStartTime: '2019-09-25T18:30:00-07:00',
+            calendarEndTime: '2019-09-25T19:30:00-07:00'
         },
         {
-            title: "Tailgate",
-            date: "TBD September 20, 2019",
-            description: "Gameday Tailgate",
+            title: "Alumni Gameday BBQ",
+            date: "12:30-4:00PM September 28, 2019",
+            description: "Alumni BBQ/Fundraiser",
             location: "2715 Portland Street",
-            calendarStartTime: '2019-08-28T19:30:00-07:00',
-            calendarEndTime: '2019-08-28T21:30:00-07:00'
-        },
-        {
-            title: "Gameday",
-            date: "6:00-9:30PM September 20, 2019",
-            description: "USC vs. Utah",
-            location: "LA Memorial Coliseum",
-            calendarStartTime: '2019-09-20T19:30:00-07:00',
-            calendarEndTime: '2019-09-20T21:30:00-07:00'
-        },
-        {
-            title: "ADPi Row Cup",
-            date: "TBD September 21, 2019",
-            description: "ADPi Philanthropy",
-            location: "TBD",
-            calendarStartTime: '2019-08-28T19:30:00-07:00',
-            calendarEndTime: '2019-08-28T21:30:00-07:00'
+            calendarStartTime: '2019-09-28T12:30:00-07:00',
+            calendarEndTime: '2019-09-28T16:00:00-07:00'
         },
         {
             title: "Deliveries",
-            date: "5:00-6:00PM September 16, 2019",
+            date: "5:00-6:00PM September 30, 2019",
             description: "Sorority Deliveries",
             location: "The Row",
-            calendarStartTime: '2019-08-28T19:30:00-07:00',
-            calendarEndTime: '2019-08-28T21:30:00-07:00'
+            calendarStartTime: '2019-09-30T17:00:00-07:00',
+            calendarEndTime: '2019-09-30T18:00:00-07:00'
         },
         {
             title: "Eboard Meeting",
-            date: "6:30-7:00PM September 16, 2019",
+            date: "6:30-7:00PM September 30, 2019",
             description: "PKT Eboard Meeting",
             location: "2715 Portland Street",
-            calendarStartTime: '2019-08-28T19:30:00-07:00',
-            calendarEndTime: '2019-08-28T21:30:00-07:00'
+            calendarStartTime: '2019-09-30T18:30:00-07:00',
+            calendarEndTime: '2019-09-30T19:00:00-07:00'
         },
         {
             title: "Meeting",
-            date: "7:00-8:00PM September 16, 2019",
+            date: "7:00-8:00PM September 30, 2019",
             description: "PKT Chapter Meeting",
             location: "2715 Portland Street",
-            calendarStartTime: '2019-08-28T19:30:00-07:00',
-            calendarEndTime: '2019-08-28T21:30:00-07:00'
+            calendarStartTime: '2019-09-30T19:00:00-07:00',
+            calendarEndTime: '2019-09-30T20:00:00-07:00'
         }
     ];
     return (
