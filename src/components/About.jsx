@@ -45,7 +45,7 @@ const About = () => {
                     <p>
                         <b>Spring Rush</b>
                         <br />
-                        <em>TBD</em>
+                        <em>January 9-19, 2020</em>
                     </p>
                     <br />
                 </div>
