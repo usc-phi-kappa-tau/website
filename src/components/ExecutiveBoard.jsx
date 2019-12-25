@@ -6,39 +6,33 @@ class ExecutiveBoard extends Component {
     state = {
         eboard: [
             {
-                name: "Seth Novosel",
+                name: "Ralph Sun",
                 title: "President",
-                email: "sethn@comcast.net",
-                image: ""
-            },
-            {
-                name: "Christian Anabi",
-                title: "Vice President",
-                email: "anabi@usc.edu",
+                email: "ralphsun@usc.edu",
                 image: ""
             },
             {
                 name: "Beau Classen",
-                title: "Vice President of Alumni Relations",
-                email: "",
+                title: "Vice President",
+                email: "bclassen@usc.edu",
                 image: ""
             },
             {
-                name: "Andrew Piazza",
+                name: "Andreas Bigger",
                 title: "Treasurer",
-                email: "ampiazza@usc.edu",
+                email: "bigger@usc.edu",
                 image: ""
             },
             {
-                name: "Evan Vivanco",
+                name: "Ethan Young",
                 title: "Secretary",
-                email: "evivanco@usc.edu",
+                email: "ehyoung@usc.edu",
                 image: ""
             },
             {
-                name: "Mcguire Shamieh",
+                name: "Jason Picker",
                 title: "Membership Orientation Officer",
-                email: "mshamieh@usc.edu",
+                email: "picker@usc.edu",
                 image: ""
             },
             {
@@ -55,50 +49,50 @@ class ExecutiveBoard extends Component {
             },
             {
                 name: "Matt Phun",
-                title: "Risk Chairman",
+                title: "Housing Manager",
                 email: "phun@usc.edu",
                 image: ""
             },
             {
                 name: "Royce Montgomery",
-                title: "Assistant Risk Chairman",
-                email: "",
+                title: "Risk Chairman",
+                email: "roycemon@usc.edu",
                 image: ""
             },
             {
-                name: "Nima Tahamzadeh",
+                name: "Damien Xie",
+                title: "Vice President of Alumni Relations",
+                email: "enyangxi@usc.edu",
+                image: ""
+            },
+            {
+                name: "Kartik Balodi",
                 title: "Recruitment Chairman",
-                email: "tahamzad@usc.edu",
-                image: ""
-            },
-            {
-                name: "Ralph Sun",
-                title: "Community Service Chairman",
-                email: "ralphsun@usc.edu",
-                image: ""
-            },
-            {
-                name: "Jason Picker",
-                title: "Philanthropy Chairman",
-                email: "picker@usc.edu",
+                email: "balodi@usc.edu",
                 image: ""
             },
             {
                 name: "Shrey Jhalani",
-                title: "Public Relations Chairman",
+                title: "Community Service Chairman",
                 email: "sjhalani@usc.edu",
                 image: ""
             },
             {
-                name: "Andreas Bigger",
-                title: "Technology Chairman",
-                email: "bigger@usc.edu",
+                name: "Adam Beres",
+                title: "Philanthropy Chairman",
+                email: "aberes@usc.edu",
                 image: ""
             },
             {
-                name: "Omid Holakoui",
+                name: "Seth Novosel",
+                title: "Chaplain",
+                email: "sethn@comcast.net",
+                image: ""
+            },
+            {
+                name: "Anthony Wiencko",
                 title: "Scholarship Chairman",
-                email: "",
+                email: "wiencko@usc.edu",
                 image: ""
             }
         ]
